@@ -47,13 +47,14 @@
             android:layout_width="300dp"
             android:layout_height="150dp"
             android:layout_gravity="center"
-            android:layout_marginTop="15dp"
+            android:layout_marginTop="25dp"
             android:src="@drawable/nome" />
 
 
         <EditText
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginTop="70dp"
             android:drawableStart="@drawable/pessoa"
             android:hint="  Usuário"
             android:inputType="textPersonName"
@@ -71,13 +72,23 @@
             android:textColorHint="@color/white" />
 
         <Button
-            android:layout_width="150dp"
+            android:layout_width="170dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="40dp"
-            android:drawableStar="@drawable/seta"
+            android:drawableEnd="@drawable/seta"
+            android:paddingRight="70dp"
+            />
 
-             />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Você ainda não tem uma conta? Cadastre-se"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:layout_marginTop="150dp"
+            android:layout_gravity="center"/>
 
     </LinearLayout>
 </FrameLayout>
